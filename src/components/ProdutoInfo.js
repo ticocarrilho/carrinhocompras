@@ -19,20 +19,16 @@ const ProdutoInfo = ({
         <DialogContentText>
           <Box mb={1}>
             <Typography variant="h5" color="primary">
-              Marca: 
-              {produto.marca}
+              Marca: {produto.marca}
             </Typography>
             <Typography variant="h5" color="primary">
-              Memória: 
-              {produto.memoria}
+              Memória: {produto.memoria}
             </Typography>
             <Typography variant="h5" color="primary">
-              Tipo de Chip: 
-              {produto.chip}
+              Tipo de Chip: {produto.chip}
             </Typography>
             <Typography variant="h5" color="primary">
-              Preço: R$ 
-              {produto.preco}
+              Preço: R$ {(produto.preco).toFixed(2)}
             </Typography>
             <Divider light />
           </Box>
